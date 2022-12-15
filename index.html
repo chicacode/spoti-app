@@ -28,7 +28,6 @@
             <a href="https://open.spotify.com" target="_blank">
                 <img src="./assets/images/Spotify_logo_with_text.svg.png" alt="logo" width="132" height="41.9">
             </a>
-
         </div>
         <nav class="header__navbar-container">
             <ul class="header__navbar-list">
@@ -53,37 +52,41 @@
 
             </ul>
         </nav>
+        <button class="button-toggle" aria-expanded="false" aria-controls="navigation-sidebar"></button>
 
-        <button class="button-toggle" aria-controls="navigation-sidebar" aria-expanded="false"></button>
+
+        <nav role="navigation" aria-label="Main" class="navigation__link-header-sidebar" id="navigation-sidebar"
+            data-visible="false">
 
 
-        <!-- <nav class="navigation__link-header-sidebar" id="navigation-sidebar" data-visible="false">
-            <ul class="header__navbar-sidebar">
-                <li class="nav__link-header-list">
-                    <a href="/premium.html">Premium</a>
+            <ul id="header__navbar-sidebar" class="header__navbar-sidebar" hidden>
+                <li>
+                    <a href="/premium.html" class="nav__link-header-list">Premium</a>
                 </li>
-                <li class="nav__link-header-list">
-                    <a href="">Support</a>
+                <li>
+                    <a href="" class="nav__link-header-list">Support</a>
                 </li>
-                <li class="nav__link-header-list">
-                    <a href="">Download</a>
+                <li>
+                    <a href="" class="nav__link-header-list">Download</a>
                 </li>
                 <li class="nav__link-header-list-break">
                     __
                 </li>
-                <li class="nav__link-header-list-register">
-                    <a href="https://www.spotify.com/ca-en/signup">Sign up</a>
+                <li>
+                    <a href="https://www.spotify.com/ca-en/signup" class="nav__link-header-list">Sign up</a>
                 </li>
-                <li class="nav__link-header-list-register">
-                    <a href="https://www.spotify.com/ca-en/login">Log in</a>
+                <li>
+                    <a href="https://www.spotify.com/ca-en/login" class="nav__link-header-list">Log in</a>
                 </li>
                 <li>
                     <img src="./assets/images/Spotify_logo_with_text.svg.png" alt="logo" width="132" height="41.9">
                 </li>
             </ul>
-        </nav> -->
+        </nav>
 
     </header>
+
+    <script src="./script.js" type="text/Javascript"></script>
 
 </body>
 

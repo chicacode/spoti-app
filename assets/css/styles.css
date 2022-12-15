@@ -23,6 +23,7 @@ body {
 .brand__logo-container {
   align-self: center;
   margin: auto;
+  transition: 200ms ease-in-out;
 }
 
 .brand__logo-container:hover {
@@ -54,36 +55,62 @@ body {
   color: #d1dadc;
   list-style-type: none;
 }
-.button-toggle {
-  display: none;
-}
 
 a:hover {
   color: #1ed760;
 }
 
-@media (max-width: 992px) {
-  body {
-    overflow-x: hidden;
-  }
+.header__navbar-sidebar {
+  display: flex;
+}
 
+.navigation__link-header-sidebar {
+  display: none;
+}
+
+.button-toggle {
+  display: none;
+}
+
+@media (max-width: 992px) {
   .header__navbar-container {
     max-width: 970px;
   }
 
   .nav__link-header-list a,
   .nav__link-header-list-register a {
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px;
   }
 }
 
+a {
+  transform: translateX(80px);
+}
+
 @media (max-width: 776px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .header {
-    background-color: aqua;
     display: flex;
   }
-  .header__navbar-container {
+
+  .header__navbar-list a {
+    display: none;
+  }
+
+  .header__navbar-list {
+    margin-right: 0px;
+  }
+
+  .brand__logo-container {
+    justify-content: flex-start;
+    margin-left: 0;
+    transform: scale(0.8);
+  }
+  .nav__link-header-list-break {
     display: none;
   }
 
@@ -91,8 +118,8 @@ a:hover {
     display: flex;
     position: absolute;
     top: 20px;
-    left: 30px;
-    background-image: url("/assets/images/menu-4-24.png");
+    left: 85%;
+    background-image: url("/assets/images/icons8-menu.svg");
     background-size: cover;
     z-index: 1;
     width: 2rem;
@@ -102,8 +129,59 @@ a:hover {
     background-color: transparent;
   }
 
-  .brand__logo-container {
-    display: block;
-    padding: 15px;
+  .button-toggle[aria-expanded="true"] {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background-image: url("/assets/images/icons8-close.svg");
+    background-size: cover;
+    z-index: 1;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+
+  .navigation__link-header-sidebar {
+    display: none;
+    justify-content: right;
+    z-index: 1;
+  }
+
+  .navigation__link-header-sidebar[data-visible="true"] {
+    display: flex;
+  }
+
+  :focus {
+    outline: 2px solid rgb(0, 255, 128);
+  }
+
+  :focus:not(:focus-visible),
+  :focus:not(:-moz-focusring) {
+    outline: 0;
+  }
+
+  :focus-visible,
+  :-moz-focusring {
+    outline: 2px solid rgb(0, 255, 128);
+  }
+
+  .header__navbar-sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2;
+    margin-left: auto;
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    background-color: #000;
+    list-style: none;
+    padding-left: 35px;
+  }
+
+  .header__navbar-sidebar li {
+    padding-bottom: 30px;
   }
 }
