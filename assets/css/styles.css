@@ -226,7 +226,6 @@ a {
 .main__section-container-section {
   background-color: rgb(223, 12, 139);
   color: #fff;
-  height: 600px;
 }
 
 .main__section-container-section > article {
@@ -244,14 +243,63 @@ a {
   width: 1170px;
 }
 
+.section__container-header-title {
+  font-size: 64px;
+  max-width: 643px;
+}
+
+.container-header-subtitle {
+  font-size: 44px;
+  line-height: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.section__container-header-buttons {
+  padding-top: 30px;
+}
+
+.section__container-header-button,
+.section__container-header-button-1 {
+  font-size: 14px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  background-color: transparent;
+  /* border: 0px; */
+  border-radius: 500px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  vertical-align: middle;
+  transform: translate3d(0px, 0px, 0px);
+  padding: 10px;
+}
+
+.section__container-header-button-1 {
+  background-color: #1ed760;
+}
+
+.section__container-header-button:hover,
+.section__container-header-button-1:hover {
+  cursor: pointer;
+}
 @media (min-width: 767px) {
   .section__container-header-1 {
     margin: 0 9px;
   }
+
+  .section__container-header-title {
+    font-size: 64px;
+    max-width: 643px;
+  }
 }
 .mobile-svg {
   width: 286px;
-  height: 523px;
+  height: 573px;
 }
 
 .img-container {
@@ -261,18 +309,41 @@ a {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
+
+  /* background-color: #1ed760; */
+}
+
+@media (max-width: 767px) {
+  .div__container-image,
+  .img-container {
+    display: none;
+  }
+  .main__section-container-section {
+    max-width: 970px;
+    padding: 10px 10px;
+    background-color: #1ed760;
+  }
 }
 
 .img-div {
   position: absolute;
   right: 0px;
   left: 0px;
-  height: 555px;
-  bottom: -133px;
+  height: 575px;
+  bottom: -90px;
   z-index: 1;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
+}
+
+.image-container-music {
+  width: 267px;
+  height: 445px;
+}
+
+.title-elements {
+  padding-top: 150px;
 }
 /* .section__container-header {
   height: 570px;
