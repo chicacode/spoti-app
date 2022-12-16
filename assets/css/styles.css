@@ -492,67 +492,7 @@ footer {
   background: #000;
   padding: 50px 0 20px;
 }
-/* .section__container-header {
-  height: 570px;
-  display: flex;
-  align-items: center;
-} */
 
-/* .section__container-header-1 {
-  display: flex;
-  width: 1170px;
-} */
-
-/* .img-container {
-  position: relative;
-  width: 40%;
-  padding-top: 100px;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
+.footer-logo-brand {
+  padding-left: 50px;
 }
-
-
-
-.div__container-image {
-  position: absolute;
-  right: 0px;
-  left: 0px;
-  height: 555px;
-  bottom: -133px;
-  z-index: 1;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-}
-
-.image-container-music{
-  width: 237px;
-  height: 495px;
-}
-
-.section__container-header-title {
-  font-size: 34px;
-  letter-spacing: -2.56px;
-  max-width: 653px;
-} */
-
-/* .section__container-header-1 {
-  display: flex;
-  flex-grow: 1;
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-.main__section-container-section > article {
-  padding-top: 24px;
-  width: 1170px;
-}
-
-
-
-.section__container-header-title {
-  font-size: 34px;
-  letter-spacing: -2.56px;
-  max-width: 653px;
-} */
