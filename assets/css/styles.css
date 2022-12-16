@@ -266,7 +266,7 @@ a {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
-  background-color: transparent;
+  background-color: #fff;
   /* border: 0px; */
   border-radius: 500px;
   display: inline-block;
@@ -286,6 +286,11 @@ a {
 .section__container-header-button:hover,
 .section__container-header-button-1:hover {
   cursor: pointer;
+}
+
+.section__container-header-paragraphs {
+  padding-top: 10px;
+  font-style: italic;
 }
 @media (min-width: 767px) {
   .section__container-header-1 {
