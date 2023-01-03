@@ -6,7 +6,11 @@ Spotify app created with HTML5 and CSS3 Flexbox and Grid
 
 ## App Evolution
 
-![alt text](./assets/images/readme-evolution.png "image")
+- Index
+  ![alt text](./assets/images/spoty-index.png"image")
+
+- Inside app premium
+  ![alt text](./assets/images/readme-evolution.png "image")
 
 ## Program WMAD Web Dev Responsive Deisgn
 
