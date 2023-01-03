@@ -35,8 +35,6 @@ Display ARIA Toggle Button from W3org
 
 - This content is licensed according to the W3C Software License at
 - https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
--
 - File: menu-button-links.js
--
 - Desc: Creates a menu button that opens a menu of links
   \*/
