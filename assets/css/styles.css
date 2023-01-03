@@ -493,6 +493,115 @@ footer {
   padding: 50px 0 20px;
 }
 
+.nav-footer__container {
+  margin: 0 auto;
+}
+
 .footer-logo-brand {
-  padding-left: 50px;
+  padding: 0 15px;
+}
+
+.footer-links__columns {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-links__columns-company,
+.footer-links__columns-communities,
+.footer-links__columns-useful {
+  padding: 0 15px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .footer-links__columns-company,
+  .footer-links__columns-communities,
+  .footer-links__columns-useful {
+    flex: 1 0;
+  }
+}
+
+.footer-links__columns-company-title,
+.footer-links__columns-communities-title,
+.footer-links__columns-useful-title {
+  color: #919496;
+  font-size: 12px;
+  font-weight: bolder;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 20px 75px;
+}
+
+.footer-links__columns-company-description,
+.footer-links__columns-communities-description,
+.footer-links__columns-useful-description {
+  margin: 0;
+}
+
+.footer-link-a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2.5;
+  text-decoration: none;
+  color: #fff;
+}
+@media (min-width: 1200px) {
+  .nav-footer__container {
+    width: 1170px;
+  }
+}
+@media (min-width: 990px) {
+  .footer-logo-brand {
+    width: 16.6%;
+    flex: 0 0 auto;
+  }
+  .nav-footer__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-links__columns {
+    width: 50%;
+    flex: 0 0 auto;
+    flex-direction: row;
+    display: flex;
+  }
+}
+
+.footer-link-country {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 15px;
+}
+
+.footer-link-country a {
+  text-decoration: none;
+}
+
+.footer-bottom-links {
+  width: 100%;
+}
+
+.footer-bottom-links-list__unorder {
+  margin: 0 45px 0 0;
+  padding: 0 0 0 15px;
+  display: flex;
+}
+
+.footer-link__list {
+  margin: 0 15px 0 auto;
+  padding: 0.5em 0;
+}
+
+.footer-link__list .link-wrapper a {
+  color: #919496;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-link__list .link-wrapper a:hover {
+  color: #1ed760;
 }
