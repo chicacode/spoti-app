@@ -227,6 +227,7 @@ input {
   flex-flow: row nowrap;
   align-items: center;
   text-decoration: none;
+  width: 167px;
 }
 
 .navigation__list__item:hover {
