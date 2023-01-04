@@ -178,7 +178,7 @@ input {
 }
 
 .main-content {
-  width: 70%;
+  width: 80%;
 }
 
 @media (max-width: 1400px) {
@@ -274,12 +274,18 @@ span {
     margin: 0 auto;
   }
 }
-.playing {
-  background-color: rgb(40, 40, 40);
-  border-bottom: 1px solid rgb(0, 0, 0);
+
+.playlist {
   display: flex;
+  justify-content: start;
+  margin: 10px;
+}
+.playing {
+  display: flex;
+  justify-content: start;
   flex-flow: row nowrap;
   align-items: center;
+  margin: 10px;
 }
 
 .playing__art img {
@@ -289,7 +295,6 @@ span {
 
 .playing__song {
   color: rgb(170, 170, 170);
-  padding-left: 15px;
   display: flex;
   flex-flow: column wrap;
 }
@@ -308,12 +313,9 @@ span {
   text-decoration: none;
 }
 
-.playing__add {
-  padding-left: 10px;
-}
-
 .playing__add > .fas {
   color: rgb(141, 201, 51);
+  padding-left: 10px;
 }
 
 .episodes__podcast-flex {
@@ -338,5 +340,5 @@ span {
 
 .main-section__episodes,
 .main-section__music {
-  padding: 10px 0 10px 10px;
+  padding: 10px 0 0px 10px;
 }
