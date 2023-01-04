@@ -342,3 +342,9 @@ span {
 .main-section__music {
   padding: 10px 0 0px 10px;
 }
+
+@media (max-width: 986px) {
+  .main-section__music {
+    display: none;
+  }
+}
