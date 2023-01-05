@@ -65,6 +65,12 @@ i {
   margin-left: 1%;
 }
 
+@media (max-width: 500px) {
+  .search {
+    display: none;
+  }
+}
+
 .navigation__list {
   margin-bottom: 0;
   width: calc(100% / 5);
@@ -244,12 +250,14 @@ input {
   .user {
     display: none;
   }
-  .flow {
-    display: none;
-  }
-
+  .flow,
   .collapse {
     display: none;
+  }
+  .navigation {
+    color: rgb(170, 170, 170);
+    overflow-y: scroll;
+    height: 30vh;
   }
 }
 
