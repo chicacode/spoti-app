@@ -342,6 +342,13 @@ a {
   height: 445px;
 }
 
+.image-container-music:hover {
+  width: 300px;
+  height: 500px;
+  transition: width 1s ease-in, height 1s ease-in;
+  border-radius: 8px;
+}
+
 .title-elements {
   padding-top: 150px;
 }
