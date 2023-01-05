@@ -264,7 +264,7 @@ a {
   font-weight: 700;
   background-color: #fff;
   width: 153px;
-  /* border: 0px; */
+  border: 0px;
   border-radius: 500px;
   display: inline-block;
   position: relative;
@@ -286,13 +286,13 @@ a {
   cursor: pointer;
   outline: none;
   background-color: #ecf0f0;
-  padding: 15px;
+  transition: background-color 0.5s easi-in 0.3;
 }
 
 .section__container-header-button-1:hover {
   background-color: rgba(240, 236, 239, 0.676);
   color: #fff;
-  padding: 15px;
+  transition: background-color 0.5s easi-in 0.3;
 }
 
 .section__container-header-paragraphs {

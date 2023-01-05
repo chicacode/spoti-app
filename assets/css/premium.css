@@ -25,9 +25,11 @@ span.capitalize {
 a:hover {
   color: rgb(200, 200, 200);
 }
+
 i {
   color: #a7a7a7;
 }
+
 .header {
   background: rgb(40, 40, 40);
   padding: 10px;
@@ -50,6 +52,7 @@ i {
   color: rgb(170, 170, 170);
   margin: 0 10px;
 }
+
 .flow {
   color: #fff;
 }
@@ -67,6 +70,7 @@ i {
   width: calc(100% / 5);
   text-align: center;
 }
+
 input {
   border-radius: 20px;
   border: none;
